@@ -111,6 +111,7 @@ export const Data = {
     proyects: [
       {
         name: "Marketing & Advertising",
+        url: "https://gabaysmarketing.netlify.app/",
         period: "Apr. 2024",
         description: [
           "A React/Next.js landing page crafted with Tailwind CSS. Bootstrapped with create-next-app for seamless development.",
@@ -118,6 +119,7 @@ export const Data = {
       },
       {
         name: "EaseyPark",
+        url: "https://github.com/shalevg12/EasyPark",
         period: "Nov. 2022 - Jul. 2023",
         description: [
           "A React Native mobile app streamlining private parking rentals and sharing. Utilizes Expo framework for rapid development. Features include spot renting, sharing, advanced search, booking, and management. Employed technologies: React Native, Expo Framework, Jest, React Testing Library.",
@@ -125,6 +127,7 @@ export const Data = {
       },
       {
         name: "Schovid",
+        url: "https://github.com/shalevg12/Schovid",
         period: "Jun. 2021 - Mar. 2022",
         description: [
           "Schovid addresses Covid-19's educational challenges with seamless communication and remote learning. It offers features like attendance tracking, homework management, and personalized scheduling. Powered by React-Native, Node.js, Expo, and Firebase.",
@@ -132,6 +135,7 @@ export const Data = {
       },
       {
         name: "ThinkWell",
+        url: "https://github.com/shalevg12/ThinkWell",
         period: "Jan. 2020 - May. 2020",
         description: [
           "ThinkWell, an immersive and interactive computer game tailored for children with autism, was meticulously developed utilizing C# and Unity, augmented with Firebase Database for seamless integration and data management.",
@@ -139,6 +143,7 @@ export const Data = {
       },
       {
         name: "Cinema Web",
+        url: "https://github.com/shalevg12/Cinema",
         period: "Jan. 2020 - Mar. 2020",
         description: [
           "A React-based website revolutionizing movie ticket booking. Leveraging Expo, Node.js, and Firebase, with Stripe for secure payments. Features include Redux-managed cart, orders, and user data, alongside intuitive movie browsing, user profiles, responsive design, search, admin tools, order tracking, user authentication, and streamlined checkout.",

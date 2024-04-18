@@ -18,7 +18,7 @@ export const Menu = {
     {
       label: "Languages",
       section: "#languages",
-      className: "bx-versatile",
+      className: "bx-world",
     },
     {
       label: "Experience",

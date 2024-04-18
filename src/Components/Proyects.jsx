@@ -13,7 +13,7 @@ export const Proyects = ({ proyects }) => {
   );
 };
 
-const Proyect = ({ name, company, period, description }) => {
+const Proyect = ({ name, company, url, period, description }) => {
   return (
     <div className="experience__content">
       <div className="experience__time">
@@ -22,7 +22,7 @@ const Proyect = ({ name, company, period, description }) => {
       </div>
       <div className="experience__data bd-grid">
         <h3 className="experience__title">
-          {name} - {company}
+          <a href={url} className="company-button" target="_blank" rel="noopener noreferrer">{name}</a>
         </h3>
         <span className="experience__proyect">{period}</span>
         {description.map((desc, i) => <Description key={i} desc={desc} />)}
